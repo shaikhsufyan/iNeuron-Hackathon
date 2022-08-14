@@ -1,0 +1,1040 @@
+ 
+
+*{
+  padding: 0%;
+  margin: 0%;
+  /* font-family: 'Mulish', sans-serif; */
+  /* font-family: 'Lato', sans-serif; */
+   
+}
+
+.first-nav img{
+  
+  width: 11%;
+  height: 7%;
+  display: flex;
+  justify-content: start;
+  margin-left: 7%;
+  position: absolute;
+  top: 20px;
+  
+  
+  
+}
+
+.first-nav .search-icon{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  
+  
+}
+.search-icon input{
+  width: 47%;
+  height: 41px;
+  padding-left: 55px;
+  font-size: 16px;
+  margin-left: -160px;
+   border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    font-family: 'Catamaran', sans-serif;
+   
+   
+
+}
+::placeholder{
+  color:  rgb(54, 54, 131);
+   
+}
+.search-icon img{
+  width: 21px;
+  height: 30px;
+   position: relative;
+   left: -120px;
+   top: 5px;
+   font-size: 23px;
+   color:   rgb(54, 54, 131) ;
+}
+.first-nav .sign-in{
+  width: 115px;
+  height: 40px;
+  background-color:  rgb(54, 54, 131);
+  color:  white;
+  font-size:18px ;
+  
+  border: none;
+  border-radius: 5px;
+  font-family: 'Catamaran', sans-serif;
+   
+  
+}
+.first-nav  .sign-up{
+  position: absolute;
+  left: 78%;
+  top: 5%;
+  border: none;
+  outline: none;
+  background-color:white;
+  font-size: 15px;
+    font-weight: 550;
+  color: rgb(72, 72, 128);
+  font-family: 'Catamaran', sans-serif;
+    
+  
+  
+   
+     
+
+}
+.first-nav  .sign-in{
+  position: absolute;
+  left: 85%;
+  top: 3.3%;
+  
+   
+     
+
+}
+nav ul li{
+  display: inline;
+  
+  
+}
+.second-nav ul li a{
+  margin: 22px;
+   position: relative;
+   top: 50px;
+   left: 90px;
+   font-size: 18px;
+   color: rgb(46, 46, 116);
+   font-family: 'Catamaran', sans-serif;
+ 
+  
+}
+.second-nav   i{
+  position: relative;
+  top: 50px;
+  left: 77px;
+  font-size: 13px;
+  color: rgb(46, 46, 116);
+
+}
+.main-page img{
+  width: 55%;
+  height: 100%;
+  margin-left: 41%;
+  margin-top: -21%;
+}
+.main-page .first-para{
+  margin-left: 8%;
+  margin-top: 14%;
+  font-size: 21px;
+  color: rgb(233, 227, 227);
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: 14%;
+
+}
+.main-page h1{
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 41px;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: 15%;
+}
+.main-page h2{
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 34px;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: 14%;
+}
+.main-page span{
+  color: rgb(252, 130, 15);
+    
+}
+.main-page .second-para{
+  margin-left: 8%;
+  margin-top: 2%;
+  font-size: 18px;
+  color:  rgb(233, 227, 227);
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: 15%;
+}
+.main-page{
+   width: 1400px;
+   height: 445px;
+  background-color:rgb(47, 76, 139) ;
+  margin-top: -8.7%;
+  
+}
+.num-head h1{
+  text-align: center;
+  font-size: 47px;
+  color:  rgb(60, 60, 133);
+  margin-top: 100px;
+  font-family: 'Catamaran', sans-serif;
+}
+.list img{
+  width: 60%;
+  height: 45%;
+   border-radius: 20px;
+   margin-left: 70px;
+   margin-top: 30px;
+}
+.list h1{
+  margin-top: 50px;
+}
+.list h2{
+  margin-left: 88px;
+  margin-top: 30px;
+  color: rgb(36, 35, 35);
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.numbers{
+  display: flex;
+  margin-top: 80px;
+  width: 85%;
+  border-radius: 10px;
+  margin-left: 110px;
+  background-color: rgb(245, 241, 241);
+  font-family: 'Catamaran', sans-serif;
+}
+
+.companies h1{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 49px;
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: 22.4%;
+  color: rgb(59, 59, 122);
+}
+.companies{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(237, 240, 245);
+  
+}
+.container{
+   position: relative;
+   width: 90%;
+   height: 300px;
+   margin-left: 6%;
+   overflow: hidden;
+
+    
+}
+.companies .img-comp{
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+  top: 17.7%;
+  animation: slider 30s linear infinite;
+   
+   
+   
+}.img-comp img{
+  margin: 50px;
+  width: 19%;
+  height: 19%;
+  transition: all 1.1s;
+  box-shadow: 0px 4px 4px 0px rgb(233, 223, 223);
+   
+}
+.img-comp img:hover{
+ transform: scale(1.2);
+ cursor: pointer;
+ 
+ 
+}
+
+ 
+@keyframes slider{
+  0%{
+      transform: translatex(0);
+  }
+  100%{
+    transform: translatex(calc(-5550px));
+     
+
+  }
+  
+   
+}
+ 
+ .card-items  {
+  width: 152%;
+  /* height: 30%; */
+ }
+ .fames{
+  margin: 30px;
+  width: 24%;
+  height: 410px;
+  background-color:     white;
+  box-shadow: 0px 4px 4px 2px rgb(208, 211, 223);
+  border-radius: 14px;
+  transition: all 1.1s;
+ }
+ .fames:hover{
+  transform: scale(1.1);
+ }
+ .card-items .fames h1{
+  text-align: center;
+  font-size: 23px;
+  margin-top: 80px;
+  color: rgb(30, 30, 78);
+  font-family: 'Catamaran', sans-serif;
+
+ }
+ .fames div{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(80, 75, 75);
+  position: relative;
+  top: -16px;
+  font-family: 'Catamaran', sans-serif;
+ }
+ .fames p{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(83, 78, 78);
+margin-top: 37px;
+position: relative;
+top: -17px;
+font-family: 'Catamaran', sans-serif;
+ 
+
+ }
+ .fames i{
+   margin-left: 47%;
+   margin-top: 10%;
+  font-size: 30px;
+  color: rgb(41, 120, 211);
+ }
+.card-items{
+  
+  display: inline-flex;
+  margin: 40px;
+  animation: slide 6s linear infinite;
+  
+  
+  background-color:    rgb(249, 251, 252);
+  
+ 
+   
+}
+.fames{
+      
+  font-family: 'Catamaran', sans-serif; 
+
+}
+@keyframes slide{
+   
+  0%{
+    transform: translatex(0);
+}
+ 
+100%{
+  transform: translatex(calc(-700px));
+   
+
+}
+  
+ 
+}
+.fames img{
+    
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  top: 30px;
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+    
+   
+}
+.fame h1{
+   text-align: center;
+   margin-top: 140px;
+   font-size: 49px;
+  color: rgb(59, 59, 122);
+  font-family: 'Catamaran', sans-serif;
+  position: relative;
+  top: -40px;
+  
+   
+}
+.fame .more{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(107, 103, 103);
+  font-family: 'Catamaran', sans-serif;
+
+}
+
+.learn h1{
+  text-align: center;
+  font-size: 48px;
+  margin-top: 150px;
+  font-family: 'Catamaran', sans-serif;
+
+}
+.learn .btn-program button{
+  
+   
+  border: 2px solid rgb(226, 226, 245);
+  margin: 5px;
+  position: relative;
+  left: 100px;
+  top: 70px;
+  border-radius: 7px;
+  font-size: 18px;
+}
+.btn-program .affordable{
+  width: 250px;
+  height: 43px;
+  background-color: white;
+}
+.btn-program .live{
+  width: 220px;
+  height: 43px;
+  background-color: rgb(37, 49, 117);
+  color: white;
+   
+
+}
+.btn-program .community{
+  width: 250px;
+  height: 43px;
+  background-color: white;
+
+
+
+}
+.btn-program .test{
+  width: 180px;
+  height: 43px;
+  background-color: white;
+
+}
+.btn-program .neuron{
+  width: 180px;
+  height: 43px;
+  background-color: white;
+
+}
+.program h2{
+  text-align: center;
+  font-size: 33px;
+  margin-top: 120px;
+ color:  rgb(59, 59, 122);
+ font-family: 'Catamaran', sans-serif;
+
+}
+.program p{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 30px;
+  color: rgb(110, 99, 99);
+  font-family: 'Catamaran', sans-serif;
+
+}
+   
+.contain{
+  width: 190%;
+  display: flex;
+  margin: 30px;
+  margin-left: 70px;
+  font-family: 'Catamaran', sans-serif;
+  animation: scroll 6s linear infinite;
+
+}
+.see-more{
+  text-align: center;
+  color: rgb(97, 90, 90);
+  margin-top: 40px;
+}
+@keyframes scroll{
+   
+  0%{
+    transform: translatex(0);
+}
+ 
+100%{
+  transform: translatex(calc(-1340px));
+   
+
+}
+}
+.contain .card-first{
+  margin: 30px;
+  width: 22%;
+  height: 430px;
+  border-radius: 10px;
+  background-color: rgb(248, 250, 252);
+   box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+   
+
+
+}
+.card-first h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-first p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-first h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-first button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ .contain .card-first img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height:47%;
+ }
+
+ .contain .card-sec{
+  border-radius: 10px;
+  
+  margin: 30px;
+  width: 22%;
+  height: 430px;
+  background-color: rgb(248, 250, 252);
+  box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+
+}
+.card-sec h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-sec p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-sec h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-sec button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ 
+ .contain .card-sec img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 47%;
+ }
+ .contain .card-third{
+  border-radius: 10px;
+  
+  margin: 30px;
+  width: 22%;
+  height: 430px;
+  background-color: rgb(248, 250, 252);
+  box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+
+}
+.card-third h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-third p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-third h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-third button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ .contain .card-third img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 47%;
+ }
+ .contain .card-four{
+  border-radius: 10px;
+  
+  margin: 30px;
+
+  width: 22%;
+  height: 430px;
+  background-color: rgb(248, 250, 252);
+  box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+
+}
+.card-four h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-four p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-four h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-four button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ .contain .card-four img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 47%;
+ }
+  
+  .contain .card-five{
+   border-radius: 10px;
+
+    margin: 30px;
+  width: 22%;
+  height: 430px;
+  background-color: rgb(248, 250, 252);
+  box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+
+}
+.card-five h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-five p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-five h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-five button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ .contain .card-five img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 47%;
+ }
+ .contain .card-six{
+  border-radius: 10px;
+
+  margin: 30px;
+  width: 22%;
+  height: 430px;
+  background-color: rgb(248, 250, 252);
+  box-shadow: 0px 4px 4px 0 rgb(202, 188, 188);
+
+}
+.card-six h2{
+  position: relative;
+  left: 10px;
+  top: 20px;
+  color:rgb(40, 40, 110) ;
+}
+.card-six p{
+  position: relative;
+  left: 20px;
+  top: 60px;
+   
+}
+.card-six h3{
+  position: relative;
+  left: 20px;
+  top: 90px;
+   
+}
+.card-six button{
+  position: relative;
+  left: 280px;
+  top: 60px;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(40, 40, 110);
+  color: white;
+  border: none;
+  border-radius: 4px;
+   
+}
+ .contain .card-six img{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  height: 47%;
+ }
+ 
+ .hackathon{
+  margin-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(237, 240, 245);
+ }
+ .hackathon h1{
+  text-align: center;
+  position: relative;
+  top: 90px;
+  color: rgb(59, 59, 122);
+  font-size: 49px;
+  font-family: 'Catamaran', sans-serif;
+
+ }
+ .hackathon .company{
+  display: flex;
+  position: relative;
+  top: 150px;
+  animation: slider2 13s linear infinite;
+ }
+ 
+@keyframes slider2{
+  0%{
+      transform: translatex(0);
+  }
+  100%{
+    transform: translatex(calc(-1150px));
+     
+
+  }
+}
+ .company img{
+  margin: 50px;
+  width: 19%;
+  height: 19%;
+  transition: all 1.1s;
+  box-shadow: 0px 4px 4px 0px rgb(233, 223, 223);
+  transform: transition all 1.1s;
+ }
+ .company img:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+ }
+ .product{
+  display: flex;
+  margin-left:110px ;
+  
+  width: 85%;
+  height: 800px;
+  font-family: 'Catamaran', sans-serif;
+  border-radius: 10px;
+  background-color: rgb(245, 241, 241);
+  margin-top: 130px;
+ }
+ .folio{
+  display: flex;
+  margin-top: 400px;
+  position: relative;
+  left: -1000px;
+ }
+ .portal{
+  /* position: relative;
+  left: 16%; */
+  margin: 80px;
+ }
+ .portal img{
+  
+  width: 240px;
+  height: 140px;
+  border-radius: 10px;
+   
+
+ }
+ .portal h2{
+  color: rgb(54, 54, 121);
+  margin-top: 30px;
+  font-size: 25px;
+ }
+ .portal p{
+  color: rgb(117, 108, 108);
+  margin-top: 30px;
+  font-size: 18px;
+ }
+ .teachers{
+  width: 400%;
+  height: 600px;
+  display: flex;
+  font-family: 'Catamaran', sans-serif;
+  background-color:  aliceblue;
+  animation: moveing 20s linear infinite;
+
+ }
+ @keyframes moveing{
+   
+  0%{
+    transform: translatex(0);
+}
+ 
+100%{
+  transform: translatex(calc(-4000px));
+   
+
+}
+ }
+
+ .mentor{
+  margin: 20px;
+  width: 420px;
+  height: 450px;
+  background-color:   white;
+  margin-left: 80px;
+  position: relative;
+  top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 6px 6px 2px rgb(198, 203, 207);
+
+}
+ .teachers .mentor .sir{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color:  rgb(235, 239, 243);
+   position: relative;
+   left: 20%;
+   top: 4%;
+   
+ }
+ .techi h1{
+  text-align: center;
+  color: rgb(54, 54, 121);
+  margin-top: 100px;
+  font-size: 45px;
+  font-family: 'Catamaran', sans-serif;
+
+   
+   
+ }
+ .mentor h2{
+  text-align: center;
+  color:rgb(29, 28, 28);
+  margin-top: 40px;
+
+ }
+ .mentor p{
+  text-align: center;
+  color:rgb(80, 74, 74);
+  margin-top: 40px;
+  font-size: 19px;
+  
+ }
+ .mentor span img{
+    width: 9%;
+    height: 9%;
+   position: relative;
+   left: 120px;
+   top: 10px;
+ }
+ .mentor span i{
+  margin: 4px
+  ;
+   color: rgb(56, 143, 243);
+   font-size: 25px;
+   margin-top: 40px;
+   position: relative;
+   left: 130px;
+ }
+ .institution{
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color:  rgb(241, 247, 252);
+ }
+ .institution img{
+  margin: 10px;
+  width: 140px;
+  height: 140px;
+  margin-left: 100px;
+  margin-top: 100px;
+ }
+ .partner h1{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 50px;
+  color: rgb(54, 54, 141);
+  background-color:  rgb(244, 248, 252);
+
+ }
+ .footer{
+   
+  width: 100%;
+  height: 600px;
+  background-color:rgb(31, 52, 141) ;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Catamaran', sans-serif;
+
+
+ }
+ .footer .heads .icons img{
+  width: 200px;
+  height: 60px;
+  margin-top: 80px;
+  color: white; 
+ }
+ .footer .heads .icons i{
+   font-size: 25px;
+   position: relative;
+   top: -20px;
+    margin: 5px;
+ }
+ .footer .heads .icons span{
+  border-bottom: 3px solid rgb(255, 136, 0);
+ }
+ .footer .heads .icons{
+  position:  relative;
+  left: 80px;
+ }
+ .content{
+  display: flex;
+ }
+  .content .content-line{
+   margin: 90px;
+   position: relative;
+   top: -90px;
+   font-size: 18px;
+   color: rgb(240, 226, 226);
+   text-decoration: none;
+  list-style: none;
+  }
+  .ft{
+    text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+   color: rgb(223, 206, 206);
+   position: relative;
+   left: -50px;
+   position: relative;
+   top: 20px;
+  }
+   
+  .content .content-line li{
+    margin: 17px;
+    
+  }
+  .content .content-line .comp{
+    font-size: 30px;
+    color: white;
+  }
+     
+  .content .content-line .prod{
+    font-size: 30px;
+    color: white;
+  }
+
+  .content-line .prod{
+    position: relative;
+    left: 470px;
+    top: -365px;
+     
+
+  }
+  .content-line .comp{
+    position: relative;
+    left: 950px;
+    top: -400px;
+    
+   
+  }
+  .content-line .comp span{
+     
+    border-bottom: 3px solid rgb(255, 115, 0);
+  }
+  .content-line .prod span{
+    border-bottom: 3px solid rgb(255, 115, 0);
+  }
